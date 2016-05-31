@@ -5,9 +5,15 @@ class NavbarController {
   menu = [{
     'title': 'Home',
     'state': 'main'
+  }, {
+    'title': 'Series',
+    'state': 'series'
   }];
 
-  isCollapsed = true;
+  private isCollapsed = true;
+  private isLoggedIn;
+  private isAdmin;
+  private getCurrentUser;
   //end-non-standard
 
   constructor(Auth) {
