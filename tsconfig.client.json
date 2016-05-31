@@ -20,6 +20,12 @@
         "client/app/app.ts",
         "client/app/main/main.controller.ts",
         "client/app/main/main.ts",
+        "client/app/tvepisode/tvepisode.controller.ts",
+        "client/app/tvepisode/tvepisode.ts",
+        "client/app/tvshow/tvshow.controller.ts",
+        "client/app/tvshow/tvshow.ts",
+        "client/app/tvshowlist/tvshowlist.controller.ts",
+        "client/app/tvshowlist/tvshowlist.ts",
         "client/components/auth/auth.module.ts",
         "client/components/auth/auth.service.ts",
         "client/components/auth/interceptor.service.ts",
@@ -32,11 +38,9 @@
         "client/components/navbar/navbar.directive.ts",
         "client/components/oauth-buttons/oauth-buttons.controller.ts",
         "client/components/oauth-buttons/oauth-buttons.directive.ts",
-        "client/components/socket/socket.mock.ts",
         "client/components/socket/socket.service.ts",
-        "client/components/ui-router/ui-router.mock.ts",
         "client/components/util/util.module.ts",
         "client/components/util/util.service.ts",
         "typings/main.d.ts"
-    ]
+        ]
 }
