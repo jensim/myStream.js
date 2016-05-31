@@ -10,7 +10,7 @@ class NavbarController {
     'state': 'series'
   }];
 
-  isCollapsed = true;
+  private isCollapsed = true;
   private isLoggedIn;
   private isAdmin;
   private getCurrentUser;

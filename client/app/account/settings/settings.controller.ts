@@ -3,7 +3,6 @@
 class SettingsController {
   errors = {};
   submitted = false;
-  Auth;
 
   constructor(Auth) {
     this.Auth = Auth;

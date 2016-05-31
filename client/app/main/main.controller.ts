@@ -3,10 +3,6 @@
 (function() {
 
 class MainController {
-  private $http;
-  private socket;
-  private awesomeThings;
-  private newThing;
 
   constructor($http, $scope, socket) {
     this.$http = $http;

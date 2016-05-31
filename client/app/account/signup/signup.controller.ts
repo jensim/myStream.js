@@ -5,8 +5,6 @@ class SignupController {
   user = {};
   errors = {};
   submitted = false;
-  $state;
-  Auth;
   //end-non-standard
 
   constructor(Auth, $state) {
