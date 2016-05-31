@@ -2,3 +2,10 @@
   .row
     .col-lg-12
       h1.page-header Series:
+      ul.nav.nav-tabs.nav-stacked.col-md-4.col-lg-4.col-sm-6(ng-repeat='series in $ctrl.allSeries')
+        li
+          a(href='#')
+            |{{series.name}}
+            button.close(ng-click='$ctrl.deleteSeries(series)') &times;
+  input.form-control(type='text', placeholder='Add a new thing here.', ng-model='$ctrl.newSeries.name')
+  button.btn.btn-primary(ng-click='$ctrl.addSeries()') Add New
