@@ -17,8 +17,6 @@ function onConnect(socket) {
   });
 
   // Insert sockets below
-  require('../api/tvepisode/tvepisode.socket').register(socket);
-  require('../api/tvshow/tvshow.socket').register(socket);
   require('../api/thing/thing.socket').register(socket);
 
 }
